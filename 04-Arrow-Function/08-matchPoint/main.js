@@ -1,8 +1,6 @@
 //V.1 less code
 
-let calcPoint = (win, draw = 0, lose = 0) => {
-    return ((win * 3) + (draw * 1) + (lose * 0));
-}
+let calcPoint = (win, draw = 0,) => ((win * 3) + (draw));
 
 //V.2 more guard but for what ???
 

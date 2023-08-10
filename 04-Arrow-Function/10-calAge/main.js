@@ -7,5 +7,5 @@
 
 //  V.2
 let howOLd  = year => {
-    return (year <= 2023)? 2023 - year : alert('Invallid Number'); 
+    return (year <= 2023)? (2023 - year)* 365 : alert('Invallid Number'); 
 }

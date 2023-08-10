@@ -65,4 +65,58 @@ function add(x,y){
     return result;
 }
 
-let r = add(5,6);
+let r = add(5,6); // Re-useable result
+
+console.log(add(5,6)); // One time use 
+
+// function isEven(n) {
+//     if(n % 2 == 0 ) {
+//         return true;
+//     }else{
+//         return false;
+// }
+// }
+// function isEven(n) {
+//     if(n % 2 == 0 ) {
+//         return true;
+//     }return false;
+// }
+function isEven(n) { //###########***********#############
+    return n % 2 == 0 
+}
+
+
+// CHEAKPOINT #1
+/* 
+    Declare
+    Param => รับ Input
+    Return
+    Call
+*/
+
+// ##### FN : Expression
+
+let a = 5* 2 + 7;
+// variable = expression
+/*
+What Expression
+- single Value => 1,2 
+- combine expression : 7 + 2
+- FN result : add(7,2)
+
+*/
+
+let myFunc = add;
+// Variable = FN (FN Expression)
+
+console.log(myFunc(5,2))
+
+/*
+    1. function add (){}
+    2. let add = function (){}
+    3. let add = () => {}
+
+
+*/
+const minus = (a,b) => a - b ;
+const minusTwo = a => a-2 ;  
