@@ -1,0 +1,1 @@
+let changeFToC = degree => (degree - 32) * 5/9; 
