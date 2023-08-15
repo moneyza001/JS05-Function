@@ -18,5 +18,5 @@
 
 // // // // V.3
 // function checkAge(age) {
-//     return (age > 18) ||confirm("Did parents allow you?");
+//     return (age > 18) || confirm("Did parents allow you?");
 // }
