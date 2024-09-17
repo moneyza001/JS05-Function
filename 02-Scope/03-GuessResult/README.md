@@ -3,8 +3,8 @@
 ```js
 function sayHi(name) {
   let name = "Guest";
-  console.log(name); // *
+  console.log(name); // * error เพราะชื่อตัวแปล ซ้ำ
 }
 
-sayHi("Jim");
+sayHi("Jim"); 
 ```

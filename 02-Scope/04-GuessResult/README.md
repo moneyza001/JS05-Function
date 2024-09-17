@@ -3,7 +3,7 @@
 ```js
 let x = 1;
 function func() {
-  console.log(x); // *
+  console.log(x); // * error เพราะเรียกใช้ x ก่อนประกาศ
   let x = 2;
 }
 func();

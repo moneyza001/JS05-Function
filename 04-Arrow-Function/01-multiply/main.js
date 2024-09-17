@@ -1,0 +1,1 @@
+let multiply = () => 23 * 9;
